@@ -7,7 +7,7 @@ function App() {
         <div className="headline">
           <div className="brand" />
           <div className="subtitle">
-            Choose Your View, Choose Your Restaurant
+            Choose Your View,<br />Choose Your Restaurant
           </div>
         </div>
         {['https://emily-winfield-eats.vercel.app',
