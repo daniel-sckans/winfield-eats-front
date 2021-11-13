@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+/* GLOBAL */
+
+:root {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*, 
+::before, 
+::after {
+    box-sizing: inherit; 
+    margin: 0; 
+    padding: 0; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: 'Yuji Boku', serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* HEADING */
+
+.brand {
+    height: 16rem; 
+    width: 100vw; 
+    margin: 4rem 0 0; 
+
+    background-image: url('./logo/winfield-eats-logo.svg'); 
+    background-position: center; 
+    background-size: 90% 90%; 
+    background-repeat: no-repeat; 
 }
 
-.App-link {
-  color: #61dafb;
+.subtitle {
+    margin: 2rem 0 4rem; 
+    padding: 0 0 4rem; 
+    
+    font-size: 3rem; 
+    text-align: center; 
+
+    border-bottom: 10px dotted #639; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* LINKS */
+
+a {
+    display: inline-block; 
+    width: 50%; 
+    height: 50vw; 
+
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+/* CREDIT */
+
+.credit {
+    margin: 4rem 0 2rem; 
+    padding: 2rem 0 0; 
+    
+    text-align: center; 
+    
+    border-top: 10px dotted #639; 
 }
